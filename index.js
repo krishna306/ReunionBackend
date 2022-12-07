@@ -5,7 +5,8 @@ const bodyParser = require("body-parser");
 const propertyRoutes = require("./routes/propertyRoutes");
 const Property = require("./models/Property");
 require("./connection");
-
+const dotenv = require("dotenv");
+dotenv.config();
 // var cityName = [
 //   "Mumbai",
 //   "Kolkata",
